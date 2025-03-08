@@ -1,16 +1,16 @@
 # ft_irc
-- [Description](Sobre-o-Projeto)
-- [Funcionalidades Implementadas](Funcionalidades-Implementadas)
-- [Tecnologias Utilizadas](Tecnologias-Utilizadas)
-- [Como Compilar e Executar](Como-Compilar-e-Executar)
-- [Estrutura do Projeto](Estrutura-do-Projeto)
-- [Comandos-Implementados](Comandos-Implementados)
+- [0. Description](#0-Sobre-o-Projeto)
+- [1. Funcionalidades Implementadas](#1-Funcionalidades-Implementadas)
+- [2. Tecnologias Utilizadas](#2-Tecnologias-Utilizadas)
+- [3. Como Compilar e Executar](#3-Como-Compilar-e-Executar)
+- [4. Estrutura do Projeto](#4-Estrutura-do-Projeto)
+- [5. Comandos-Implementados](#5-Comandos-Implementados)
 
-## Sobre o Projeto
+## 0. Sobre o Projeto
 
 O **ft_irc** é uma implementação de um servidor IRC desenvolvido em C++. O objetivo do projeto é criar um servidor que implemente funcionalidades básicas do protocolo IRC (Internet Relay Chat), permitindo conexão de clientes, gerenciamento de canais e interação entre usuários.
 
-## Funcionalidades Implementadas
+## 1. Funcionalidades Implementadas
 
 - Aceita conexões de múltiplos clientes via protocolo IRC
 - Suporte a autenticação e registro de usuários
@@ -20,14 +20,14 @@ O **ft_irc** é uma implementação de um servidor IRC desenvolvido em C++. O ob
 - Implementação de comandos IRC básicos
 - Sistema de controle de permissões nos canais
 
-## Tecnologias Utilizadas
+## 2. Tecnologias Utilizadas
 
 - **Linguagem:** C++
 - **Padrão:** C++98
 - **Script:** Makefile
 - **Sockets:** Uso da API de sockets para comunicação em rede
 
-## Como Compilar e Executar
+## 3. Como Compilar e Executar
 
 ### Requisitos
 
@@ -60,7 +60,7 @@ nc <ip> <port>
 ![Image](https://github.com/user-attachments/assets/17598cff-013a-4624-9282-5a1083070d5e)
 ![Image](https://github.com/user-attachments/assets/d616618d-864f-4d22-88cb-ade40564e4e9)
 
-## Estrutura do Projeto
+## 4. Estrutura do Projeto
 
 ```
 ft_irc/
@@ -73,7 +73,7 @@ ft_irc/
 └── README.md           # Este arquivo
 ```
 
-## Comandos Implementados
+## 5. Comandos Implementados
 
 - `PASS <password>` - Define a senha de conexão
 - `NICK <nickname>` - Define o apelido do usuário
