@@ -1,10 +1,10 @@
 # ft_irc
-- [Description](#Sobre-o-Projeto)
+- [Sobre o Projeto](#Sobre-o-Projeto)
 - [Funcionalidades Implementadas](#Funcionalidades-Implementadas)
 - [Tecnologias Utilizadas](#Tecnologias-Utilizadas)
 - [Como Compilar e Executar](#Como-Compilar-e-Executar)
 - [Estrutura do Projeto](#Estrutura-do-Projeto)
-- [Comandos-Implementados](#Comandos-Implementados)
+- [ComandosImplementados](#Comandos-Implementados)
 
 ## Sobre o Projeto
 
@@ -57,8 +57,8 @@ Para testar o servidor, você pode usar um cliente IRC como `netcat` ou `HexChat
 nc <ip> <port>
 ```
 
-![Image](https://github.com/user-attachments/assets/17598cff-013a-4624-9282-5a1083070d5e)
-![Image](https://github.com/user-attachments/assets/d616618d-864f-4d22-88cb-ade40564e4e9)
+![Image](https://github.com/user-attachments/assets/abf742ae-128f-4cdc-9e86-ce75a7d515f5)
+![Image](https://github.com/user-attachments/assets/c3233dca-51a5-4bb0-a0bf-0a5e81499f27)
 
 ## Estrutura do Projeto
 
